@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Campus Lost & Found</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Campus Lost & Found</h1>
+        <p>Create an account to report or find lost items.</p>
+
+        <div class="login-box">
+            <h2>Register</h2>
+
+            <form action="RegisterServlet" method="post">
+
+                <label>Full Name</label>
+                <input type="text" name="full_name"
+                       placeholder="Enter your full name" required>
+
+                <label>Email</label>
+                <input type="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label>Password</label>
+                <input type="password" name="password"
+                       placeholder="Create password" required>
+
+                <button type="submit">Register</button>
+
+            </form>
+
+            <p>Already have an account?</p>
+            <a href="index.html">Login here</a>
+        </div>
+    </div>
+
+</body>
+</html>

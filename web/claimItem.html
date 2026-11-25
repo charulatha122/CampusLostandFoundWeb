@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Claim Item - Campus Lost & Found</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Campus Lost & Found</h1>
+
+        <div class="login-box">
+            <h2>Claim an Item</h2>
+
+            <form action="ClaimServlet" method="post">
+
+                <label>Item ID</label>
+                <input type="number"
+                       name="item_id"
+                       placeholder="Enter Item ID"
+                       min="1"
+                       required>
+
+                <label>Claim Description</label>
+                <textarea name="claim_description"
+                          placeholder="Explain why this item belongs to you"
+                          rows="5"
+                          required></textarea>
+
+                <button type="submit">Submit Claim</button>
+
+            </form>
+
+            <p>
+                <a href="ViewItemsServlet">View Reported Items</a>
+            </p>
+
+            <p>
+                <a href="DashboardServlet">Back to Dashboard</a>
+            </p>
+
+        </div>
+    </div>
+
+</body>
+</html>

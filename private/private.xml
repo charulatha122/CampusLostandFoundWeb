@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/AddItemServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/AdminDashboardServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/ClaimServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/DashboardServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/LoginServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/LogoutServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/RegisterServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/ManageClaimsServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/SearchItemsServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/ViewClaimsServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/servlet/ViewItemsServlet.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/db/DBConnection.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/db/DBConnectionTest.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/src/java/dao/UserDAO.java</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/web/addItem.html</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/web/claimItem.html</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/web/dashboard.html</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/web/index.html</file>
+            <file>file:/C:/Users/Charulatha/Documents/NetBeansProjects/CampusLostFoundWeb/web/register.html</file>
+        </group>
+    </open-files>
+</project-private>

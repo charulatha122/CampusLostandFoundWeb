@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Report an Item - Campus Lost & Found</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Campus Lost & Found</h1>
+
+        <div class="login-box">
+
+            <h2>Report Lost or Found Item</h2>
+
+            <form action="AddItemServlet" method="post">
+
+                <label>Item Name</label>
+                <input type="text"
+                       name="item_name"
+                       placeholder="Enter item name"
+                       required>
+
+                <label>Category</label>
+                <select name="category" required>
+                    <option value="">Select Category</option>
+                    <option value="ID Card">ID Card</option>
+                    <option value="Books">Books</option>
+                    <option value="Keys">Keys</option>
+                    <option value="Water Bottle">Water Bottle</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label>Description</label>
+                <textarea name="description"
+                          placeholder="Describe the item"
+                          rows="4"></textarea>
+
+                <label>Location</label>
+                <input type="text"
+                       name="location"
+                       placeholder="Where was it lost or found?"
+                       required>
+
+                <label>Date</label>
+                <input type="date"
+                       name="item_date"
+                       required>
+
+                <label>Report Type</label>
+                <select name="report_type" required>
+                    <option value="">Select Report Type</option>
+                    <option value="LOST">Lost Item</option>
+                    <option value="FOUND">Found Item</option>
+                </select>
+
+                <button type="submit">Submit Report</button>
+
+            </form>
+
+            <p>
+                <a href="DashboardServlet">Back to Dashboard</a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
